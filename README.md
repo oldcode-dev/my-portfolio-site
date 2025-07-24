@@ -24,8 +24,8 @@ I'm a proactive and empathetic learner with a background in Computer Science, ha
 
 If you're curious, hiring, or just looking to collaborate—I'd love to hear from you! I believe tech becomes most powerful when shared.
 
-📬 **Email**: ernestfrimpongopoku.992@outlook.com
-🔗 **LinkedIn**: www.linkedin.com/in/ernest-frimpong-opoku-3444b3206   
+📬 **Email**: [ernestfrimpongopoku.992@outlook.com]
+🔗 **LinkedIn**: [www.linkedin.com/in/ernest-frimpong-opoku-3444b3206]   
 🌐 **Website**: [yourdomain.com]
 
 ---
