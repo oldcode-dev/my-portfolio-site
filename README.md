@@ -1,12 +1,33 @@
-# React + Vite
+# 🎯 Ernest's Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my digital workspace! I'm Ernest, an IT Support Specialist and aspiring Software Engineer, passionate about using technology to empower individuals and communities—especially in low-resource settings. This portfolio showcases my technical projects, service initiatives, and ongoing learning journey.
 
-Currently, two official plugins are available:
+## 🌍 About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I'm a proactive and empathetic learner with a background in Computer Science, hands-on IT support experience, and a growing foundation in web development (JavaScript, Node.js, REST APIs). I blend technical precision with a strong service ethic to solve problems and uplift others.
 
-## Expanding the ESLint configuration
+## 🔧 What You'll Find Here
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Projects**: Showcasing my work in IT support automation, web apps, and community-driven tools
+- **Certifications**: Highlights including the Google IT Support Certificate, plus my ongoing progress toward Network+ and Security+
+- **Service & Outreach**: Stories and materials from outreach programs, mentorship, and skill-building trainings
+- **Blog (Optional)**: Reflections on learning, faith, tech challenges, and purpose-driven impact
+
+## 🚀 Goals
+
+- Secure an IT Field Support role (aiming for MTN Ghana or similar)
+- Expand into software engineering while maintaining user-focused support excellence
+- Pursue affordable learning paths including ITIL, Network+, and more
+- Build tools that simplify tech for everyday people
+
+## 🤝 Let’s Connect
+
+If you're curious, hiring, or just looking to collaborate—I'd love to hear from you! I believe tech becomes most powerful when shared.
+
+📬 **Email**: ernestfrimpongopoku.992@outlook.com
+🔗 **LinkedIn**: www.linkedin.com/in/ernest-frimpong-opoku-3444b3206   
+🌐 **Website**: [yourdomain.com]
+
+---
+
+_Thanks for stopping by. I’m building not just a career—but a calling._
