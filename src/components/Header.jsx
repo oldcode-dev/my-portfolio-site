@@ -1,13 +1,9 @@
-import "./Header.css";
+import styles from './Header.module.css';
 
 function Header() {
     return (
-        <header>
-                <div className="logo-container">
-                    <img src="/path/to/logo.png" alt="Company Logo" className="footer-logo" />
-                </div>
-
-                <h4>EarnestByDesign</h4>
+        <header className={styles.header}>
+            <h1 className={styles.title}>EarnestByDesign</h1>
         </header>
     );
 }
