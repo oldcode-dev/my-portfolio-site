@@ -12,10 +12,8 @@
    width: 100%;
    height: 70vh;
    padding: 30px 20px;
-   background-image: linear-gradient(
-       rgba(0, 0, 0, 0.9),
-       rgba(0, 0, 0, 0.5)
-   ), url('/path/to/hero-image.jpg');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.9),
+         rgba(0, 0, 0, 0.5)), url('/path/to/hero-image.jpg');
    background-size: cover;
    background-position: center;
    opacity: 0.9;
@@ -29,13 +27,13 @@
    margin-bottom: 20px;
 }
 
-.heroImageContainer > img{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin: 0 auto;
-  background-color: white;
-  border: var(--primary-color) 2px solid;
+.heroImageContainer>img {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   margin: 0 auto;
+   background-color: white;
+   border: var(--primary-color) 2px solid;
 }
 
 .heroTitle {
@@ -184,9 +182,115 @@ p {
 .skillItem p {
    padding: 20px 10px;
 }
+
 .skillItem h3 {
    font-size: 18px;
    color: var(--primary-color);
    margin-top: 10px;
    padding: 0;
+}
+
+@media (min-width: 1024px) {
+   
+   .heroContainer {
+      height: 80vh;
+      max-width: 100%;
+      margin: auto;
+      padding: 60px 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+   }
+
+
+   .heroImageContainer>img {
+      width: 220px;
+      height: 220px;
+      border: 5px solid var(--primary-color);
+      margin-bottom: -70px;
+   }
+
+   .heroTitle {
+      font-size: 48px;
+   }
+
+   .heroSubtitle {
+      font-size: 32px;
+      margin-top: -50px;
+   }
+
+   .ctaButtonGroup {
+      width: 500px;
+   }
+
+   .primaryActionBtn, .secondaryActionBtn{
+      height: 70px;
+      width: 170px;
+      margin-top: -80px;
+      font-size: 1.5rem;
+   }
+
+   .aboutSection {
+      padding: 60px 80px;
+      height: 100vh;
+      width: 1200px;
+      margin: auto;
+   }
+
+   .sectionTitle {
+      font-size: 2.5rem;
+      margin-top: 80px;
+   }
+
+   .sectionDescription {
+      font-size: 1.3rem;
+   }
+
+   .featureList {
+      margin-top: 50px;
+      flex-direction: column;
+      gap: 40px;
+   }
+
+   .featureItem > img {
+      width: 50px;
+      height: 50px;
+   }
+
+   .featureItem > p {
+      font-size: 1.2rem;
+   }
+
+   .featureButton {
+      width: 800px;
+      height: 60px;
+      margin: auto;
+      font-size: 1.3rem;
+   }
+
+   .skillList {
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 1fr;
+      gap: 40px;
+   }
+
+   .skillsSection {
+      width: 1200px;
+      height: max-content;
+      margin: auto;
+   }
+
+   .SkillsSectionTitle {
+      margin-top: 20px;
+      font-size: 2.5rem;
+      text-align: center;
+   }
+
+   .skillItem {
+      margin-top: 30px;
+      padding-bottom: 40px;
+      text-align: center;
+      font-size: 1.2rem;
+   }
 }

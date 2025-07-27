@@ -37,20 +37,15 @@
     text-align: center;
 }
 
-.footerNavList {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 250px;
-    text-align: center;
-    padding: 0;
-    margin-top: 20px;
+nav {
+    margin: 0 30px;
 }
 
 .footerNavItem {
     list-style-type: none;
     margin: auto;
+    padding: 5px 0;
+    font-size: 0.8rem;
 }
 
 .footerNavLink {
@@ -82,4 +77,40 @@
     font-size: 12px;
     color: white;
     margin-top: 60px;
+}
+
+
+@media (min-width: 1024px) {
+    .contentContainer {
+        width: 1200px;
+        margin: auto;
+        padding: 20px 40px;
+        display: flex;
+    }
+
+    .workTogetherContainer{
+        width: 50%;
+    }
+
+    .footer {
+        height: max-content;
+    }
+
+    .footerTitle {
+        font-size: 2rem;
+        text-align: left;
+    }
+    
+    .footerDescription {
+        font-size: large;
+    }
+
+    .footerNavList {
+        justify-content: flex-start;
+    }
+
+    .footerCopyrightText{
+        font-size: 1rem;
+    }
+
 }
