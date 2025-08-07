@@ -1,13 +1,13 @@
 import styles from "./HomePage.module.css";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-import Certification from "../assets/social_logo/certification.png";
-import Support from "../assets/social_logo/support.png";
-import Code from "../assets/social_logo/code.png";
-import Networking from "../assets/social_logo/networking.png";
-import Responsive from "../assets/social_logo/responsive.png";
-import Graduation from "../assets/social_logo/graduation.png";
-import HeroImage from "../assets/image.png";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import Certification from "../../assets/social_logo/certification.png";
+import Support from "../../assets/social_logo/support.png";
+import Code from "../../assets/social_logo/code.png";
+import Networking from "../../assets/social_logo/networking.png";
+import Responsive from "../../assets/social_logo/responsive.png";
+import Graduation from "../../assets/social_logo/graduation.png";
+import HeroImage from "../../assets/image.png";
 const HomePage = () => {
     return (
         <div className={styles.homepageContainer}>
