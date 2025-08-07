@@ -10,6 +10,7 @@
     font-size: 14px;
     width: 100%;
     height: 100vh;
+    max-height: max-content;
 }
 
 .footerTitle {
@@ -86,6 +87,8 @@ nav {
         margin: auto;
         padding: 20px 40px;
         display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 
     .workTogetherContainer{

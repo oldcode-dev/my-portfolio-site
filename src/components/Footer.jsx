@@ -18,18 +18,6 @@ function Footer() {
 
                 </div>
 
-                <nav>
-                    <h3 className={styles.navContainer}>Navigation Links</h3>
-                    <ul className={styles.footerNavList}>
-                        <li className={styles.footerNavItem}><a className={styles.footerNavLink} href="#home">Home</a></li>
-                        <li className={styles.footerNavItem}><a className={styles.footerNavLink} href="#about">About Me</a></li>
-                        <li className={styles.footerNavItem}><a className={styles.footerNavLink} href="#services">Skills</a></li>
-                        <li className={styles.footerNavItem}><a className={styles.footerNavLink} href="#portfolio">Portfolio</a></li>
-                        <li className={styles.footerNavItem}><a className={styles.footerNavLink} href="#blog">Blog</a></li>
-                        <li className={styles.footerNavItem}><a className={styles.footerNavLink} href="#testimonials">Testimonials</a></li>
-                        <li className={styles.footerNavItem}><a className={styles.footerNavLink} href="#contact">Contact</a></li>
-                    </ul>
-                </nav>
                 <div className={styles.footerSocialsContainer}>
                     <div className={styles.footerSocial}>
                         <img src={LinkedInLogo} alt="LinkedIn" className={styles.footerSocialLogo} />
