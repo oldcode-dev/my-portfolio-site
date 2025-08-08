@@ -35,6 +35,14 @@ nav {
     display: block;
 }
 
+.navList {
+    display: none;
+}
+
+.largeScreenNav {
+    display: none;
+}
+
 /* On large screens, always show nav and hide menu button */
 @media (min-width: 1024px) {
     nav {
@@ -46,6 +54,25 @@ nav {
         border: none;
         padding: 0;
     }
+
+    .navList {
+        display: flex;
+        width: 40vw;
+        height: 40px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+   .navList li {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: 500;
+   }
+
+   .navList li a {
+    text-decoration: none;
+    color: white;
+   }
 
     .footerNavList {
         flex-direction: row;
