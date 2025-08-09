@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import HomePage from './pages/landing/HomePage.jsx'
 import AboutPage from "./pages/about/AboutPage.jsx"
 import './index.css'
+import ContactsPage from './contact/ContactsPage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -11,6 +12,7 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/about-me' element={<AboutPage />} />
+        <Route path='/contact-me' element={<ContactsPage/>} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

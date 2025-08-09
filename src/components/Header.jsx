@@ -20,7 +20,7 @@ function Header() {
                     <li className={styles.navItem}><a className={styles.navLink} href="#portfolio">Portfolio</a></li>
                     {/* <li className={styles.footernavItem}><a className={styles.footerNavLink} href="#blog">Blog</a></li> */}
                     {/* <li className={styles.footernavItem}><a className={styles.footerNavLink} href="#testimonials">Testimonials</a></li> */}
-                    <li className={styles.footernavItem}><a className={styles.footerNavLink} href="#contact">Contact</a></li>
+                    <li className={styles.footernavItem}><Link to="/contact-me" className={styles.footerNavLink} href="#contact">Contact</Link></li>
                 </ul>
             </nav>
             <button className={styles.menuButton} onClick={toggleMenu}>
@@ -35,7 +35,7 @@ function Header() {
                         <li className={styles.footernavItem}><a className={styles.footerNavLink} href="#portfolio">Portfolio</a></li>
                         {/* <li className={styles.footernavItem}><a className={styles.footerNavLink} href="#blog">Blog</a></li> */}
                         {/* <li className={styles.footernavItem}><a className={styles.footerNavLink} href="#testimonials">Testimonials</a></li> */}
-                        <li className={styles.footernavItem}><a className={styles.footerNavLink} href="#contact">Contact</a></li>
+                        <li className={styles.footernavItem}><Link to="/contact-me" className={styles.footerNavLink} href="#contact">Contact</Link></li>
                     </ul>
                 </nav>
             )}
