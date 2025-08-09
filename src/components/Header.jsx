@@ -29,8 +29,8 @@ function Header() {
             {isMenuOpen && (
                 <nav>
                     <ul className={styles.footerNavList}>
-                        <li className={styles.footernavItem}><a className={styles.footerNavLink} href="#home">Home</a></li>
-                        <li className={styles.footernavItem}><a className={styles.footerNavLink} href="#about">About Me</a></li>
+                        <li className={styles.footernavItem}><Link to="/" className={styles.footerNavLink}>Home</Link></li>
+                        <li className={styles.footernavItem}><Link to="/about-me" className={styles.footerNavLink}>About Me</Link></li>
                         <li className={styles.footernavItem}><a className={styles.footerNavLink} href="#services">Skills</a></li>
                         <li className={styles.footernavItem}><a className={styles.footerNavLink} href="#portfolio">Portfolio</a></li>
                         {/* <li className={styles.footernavItem}><a className={styles.footerNavLink} href="#blog">Blog</a></li> */}
