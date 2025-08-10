@@ -10,8 +10,8 @@
 
 .heroContainer {
    width: 100%;
-   height: 70vh;
-   min-height: min-content;
+   height: 65vh;
+   max-height: 65vh ;
    padding: 30px 20px;
    background-image: linear-gradient(rgba(0, 0, 0, 0.9),
          rgba(0, 0, 0, 0.5)), url('/path/to/hero-image.jpg');
@@ -81,7 +81,7 @@
 }
 
 .aboutSection {
-   padding: 40px 20px;
+   padding: 20px 20px;
    background-color: white;
    margin: 0 10px;
 }
@@ -194,35 +194,43 @@ p {
 @media (min-width: 1024px) {
    
    .heroContainer {
-      height:80vh;
-      max-width: 100%;
-      margin: auto;
-      padding: 60px 40px;
       display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      flex: 1;
+   }
+
+   .titleGroup {
+      display: flex;
+      justify-content: space-evenly;
+      text-align: left;
       flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
    }
 
 
    .heroImageContainer>img {
-      width: 220px;
-      height: 220px;
+      width: 300px;
+      max-width: 300px;
+      height: 300px;
       border: 5px solid var(--primary-color);
       margin-bottom: -70px;
+      
    }
 
    .heroTitle {
-      font-size: 48px;
+      font-size: 60px;
    }
 
    .heroSubtitle {
-      font-size: 32px;
-      margin-top: -50px;
+      font-size: 2rem;
+      margin-top: -80px;
+      text-align: center;
    }
 
    .ctaButtonGroup {
       width: 500px;
+      height: 20px;
+      margin: 20px auto;
    }
 
    .primaryActionBtn, .secondaryActionBtn{
@@ -230,6 +238,10 @@ p {
       width: 170px;
       margin-top: -80px;
       font-size: 1.5rem;
+   }
+
+   .introContainer{
+
    }
 
    .aboutSection {

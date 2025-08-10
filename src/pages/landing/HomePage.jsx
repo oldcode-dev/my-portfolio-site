@@ -16,11 +16,13 @@ const HomePage = () => {
                 <div className={styles.heroImageContainer}>
                     <img src={HeroImage} alt="Hero" className={styles.heroImage} />
                 </div>
-                <h1 className={styles.heroTitle}>Opoku Frimpong Ernest</h1>
-                <p className={styles.heroSubtitle}>IT Support Specialist & Frontend Engineer</p>
-                <div className={styles.ctaButtonGroup}>
-                    <button className={styles.primaryActionBtn}>Get Started</button>
-                    <button className={styles.secondaryActionBtn}>Learn More</button>
+                <div className={styles.titleGroup}>
+                    <h1 className={styles.heroTitle}>Opoku Frimpong Ernest</h1>
+                    <p className={styles.heroSubtitle}>IT Support Specialist & Frontend Engineer</p>
+                    <div className={styles.ctaButtonGroup}>
+                        <button className={styles.primaryActionBtn}>Get Started</button>
+                        <button className={styles.secondaryActionBtn}>Learn More</button>
+                    </div>
                 </div>
             </section>
             <section className={styles.aboutSection}>
