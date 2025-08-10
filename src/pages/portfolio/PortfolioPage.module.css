@@ -11,13 +11,13 @@
 .portfolioMain {
     background: var(--background);
     min-height: 100vh;
-    padding: 32px 0 40px 0;
+    padding: 32px 20px 40px 20px;
 }
 
 .heading {
     font-size: 2.2rem;
     color: var(--primary-color);
-    text-align: center;
+    text-align: left;
     margin-bottom: 32px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -32,36 +32,44 @@
     max-width: 900px;
 }
 
-.skillsSection h2 {
+.portfolioMain h2 {
     color: var(--primary-color);
-    font-size: 1.3rem;
-    margin-bottom: 14px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.intro {
+    margin-bottom: 10px;
+}
+
+.skillsSection h3 {
+    color: black;
+    margin-bottom: 10px;
 }
 
 .skillsList {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px 32px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px 0;
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
 .skillsList li {
-    background: var(--accent-color);
+    /* background: var(--accent-color); */
+    width: 100%;
     color: var(--primary-color);
     font-weight: 500;
     border-radius: 12px;
-    padding: 8px 18px;
+    padding: 8px 10px;
     font-size: 1rem;
     display: flex;
     align-items: center;
     gap: 8px;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+    font-size: 0.95rem; 
+    flex: 1;
 }
 
 .projectsSection {
@@ -130,6 +138,11 @@
     gap: 8px;
 }
 
+.description {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+}
+
 .projectDuration,
 .projectStatus {
     font-size: 0.98rem;
@@ -146,6 +159,11 @@
     display: flex;
     align-items: center;
     gap: 4px;
+    border: 0.5px solid #2ecc40;
+    padding: 5px 8px;
+    font-size: 0.6rem;
+    border-radius: 20px;
+    background-color: white;
 }
 
 .statusInProgress {
@@ -154,6 +172,10 @@
     display: flex;
     align-items: center;
     gap: 4px;
+    border: 0.5px solid #ff9800;
+    padding: 5px 8px;
+    font-size: 0.6rem;
+    border-radius: 20px;
 }
 
 /* Responsive Design */
