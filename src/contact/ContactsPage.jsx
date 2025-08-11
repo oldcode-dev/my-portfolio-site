@@ -8,7 +8,7 @@ import GitHubIcon from "../assets/social_logo/github.png";
 import TwitterIcon from "../assets/social_logo/twitter.png";
 import WhatsAppIcon from "../assets/social_logo/whatsapp.png";
 import LinkedinIcon from "../assets/social_logo/linkedin.png"
-
+import { useState } from "react";
 
 function ContactsPage() {
     const contactInfo = [
@@ -28,6 +28,19 @@ function ContactsPage() {
             subtitle: "Techiman, BE/R"
         }
     ];
+
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
+    });
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData(prev => ({ ...prev, [name]: value }));
+    };
+
     return (
         <>
             <Header />
@@ -69,19 +82,19 @@ function ContactsPage() {
                         <form className={styles.contactForm}>
                             <div>
                                 <label htmlFor="name">Name</label>
-                                <input type="text" id="name" name="name" required />
+                                <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required />
                             </div>
                             <div>
                                 <label htmlFor="email">Email</label>
-                                <input type="email" id="email" name="email" required />
+                                <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required />
                             </div>
                             <div>
                                 <label htmlFor="subject">Subject</label>
-                                <input type="text" id="subject" name="subject" required />
+                                <input type="text" id="subject" name="subject" value={formData.subject} onChange={handleChange} required />
                             </div>
                             <div>
                                 <label htmlFor="message">Message</label>
-                                <textarea id="message" name="message" rows="4" required></textarea>
+                                <textarea id="message" name="message" rows="4" value={formData.message} onChange={handleChange} required></textarea>
                             </div>
                             <button type="submit" className={styles.sendButton}>Send</button>
                         </form>
