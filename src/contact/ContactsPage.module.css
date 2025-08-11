@@ -175,9 +175,13 @@
 
 /* Responsive Design */
 @media (min-width: 900px) {
+    .introText {
+        text-align: center;
+    }
     .containersWrapper {
-        flex-direction: row;
+        flex-direction: column;
         gap: 32px;
+        width: 40vw;
     }
 
     .contactInfo,
@@ -190,4 +194,10 @@
     .contactFormSection {
         flex: 1.2 1 0;
     }
+
+    .contactsMain {
+        
+    }
+
+    
 }
