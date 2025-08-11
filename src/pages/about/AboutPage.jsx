@@ -45,7 +45,7 @@ function AboutPage() {
                     </div>
                 </section>
 
-                
+
 
                 <section className={styles.skillsSection}>
                     <h3>What I Bring</h3>

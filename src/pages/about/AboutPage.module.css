@@ -142,3 +142,11 @@
     height: 50px;
 }
 
+@media (min-width: 900px){
+    .aboutMain {
+        width: 60vw;
+        margin: 10vh auto 10vh auto;
+        border-radius: 20px;
+    }
+}
+
