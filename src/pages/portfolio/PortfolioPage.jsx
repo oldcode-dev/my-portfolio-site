@@ -3,24 +3,26 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import styles from "./PortfolioPage.module.css";
 import EcommerceImg from "../../assets/ecommerce.png";
+import VolunteerImg from "../../assets/projects/voluteer_project.png";
+import PortfolioImg from "../../assets/projects/portfolio.png";
 
 // Example project data (could be moved to a separate file for scalability)
 const projects = [
     {
-        image: EcommerceImg,
-        title: "E-commerce Platform",
+        image: VolunteerImg,
+        title: " Local Volunteer Coordination Platform",
         description:
-            "A fully responsive e-commerce platform with product filtering, user authentication, and payment integration.",
-        duration: "Apr 2024 - Present",
+            "A volunteer coordination platform enabling community organizers to manage events and volunteer sign-ups",
+        duration: "Apr 2025 - Present",
         status: "In Progress",
     },
     {
-        image: EcommerceImg,
-        title: "E-commerce Platform",
+        image: PortfolioImg,
+        title: "Portfolio Site",
         description:
-            "A fully responsive e-commerce platform with product filtering, user authentication, and payment integration.",
-        duration: "Apr 2024 - Present",
-        status: "Completed",
+            "A fully responsive website to showcase my skillset.",
+        duration: "May 2025 - Present",
+        status: "In Progress",
     },
 ];
 
